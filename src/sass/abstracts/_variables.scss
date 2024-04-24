@@ -34,4 +34,8 @@
   --copy-font: var(--fw-regular) var(--fs-100) var(--ff-primary);
   --copy-leading: var(--leading-150);
   --copy-color: hsl(var(--color-neutral-500));
+
+  // ----- Heading
+  --heading-ff: var(--ff-secondary);
+  --heading-leading: var(--leading-100);
 }
