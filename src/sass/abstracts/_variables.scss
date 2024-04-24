@@ -98,4 +98,14 @@
     --recipe-item-content-max-width: 46rem;
     --recipe-item-content-heading-fs: var(--fs-500);
   }
+
+  // ---------- LAYOUT
+
+  // ----- Footer
+  --footer-fs: 0.875rem; // 14px
+  --footer-color: hsla(var(--color-neutral-800), 0.4);
+  --footer-padding-block: 1rem;
+
+  --footer-link-fw: var(--fw-semibold);
+  --footer-link-color: var(--footer-color);
 }
