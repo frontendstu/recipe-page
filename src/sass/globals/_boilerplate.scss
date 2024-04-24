@@ -16,6 +16,10 @@ body {
   line-height: var(--heading-leading);
 }
 
+strong {
+  font-weight: var(--fw-strong);
+}
+
 ul,
 ol {
   @include mixin.flex($align: null, $direction: column, $gap: var(--list-gap));
