@@ -10,6 +10,12 @@
   --color-primary: 14, 45%, 36%;
   --color-secondary: 332, 51%, 32%;
 
+  --color-bg: hsl(var(--color-neutral-100));
+
+  @media (min-width: 48em) {
+    --color-bg: hsl(var(--color-neutral-200));
+  }
+
   // ---------- TYPOGRAPHY
 
   // ----- Fonts
