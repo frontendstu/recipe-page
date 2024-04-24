@@ -5,6 +5,7 @@
  */
 
 .recipe-item {
+  background-color: var(--recipe-item-bg);
   border-radius: var(--recipe-item-radius);
   margin-inline: auto;
   max-width: var(--recipe-item-max-width);
