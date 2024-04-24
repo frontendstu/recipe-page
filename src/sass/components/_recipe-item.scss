@@ -22,4 +22,14 @@
       color: var(--recipe-item-heading-color);
     }
   }
+
+  &__block {
+    border-bottom: var(--recipe-item-block-border-bottom);
+    padding-block: var(--recipe-item-block-padding-block);
+
+    .heading {
+      font-size: var(--recipe-item-block-heading-fs);
+      color: var(--recipe-item-block-heading-color);
+    }
+  }
 }
