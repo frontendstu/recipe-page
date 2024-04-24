@@ -24,6 +24,8 @@
   }
 
   &__block {
+    @include mixin.flex($align: null, $gap: var(--recipe-item-block-gap));
+
     border-bottom: var(--recipe-item-block-border-bottom);
     padding-block: var(--recipe-item-block-padding-block);
 
