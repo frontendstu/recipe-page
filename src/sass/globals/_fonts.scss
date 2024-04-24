@@ -9,3 +9,13 @@
   $font-path: '../assets/fonts/outfit/Outfit-VariableFont_wght.ttf',
   $font-weight: 400 700
 );
+
+/**
+ * Young Serif
+ */
+
+@include abstract.font-face(
+  $font-family: 'Young Serif',
+  $font-path: '../assets/fonts/young-serif/YoungSerif-Regular.ttf',
+  $font-weight: 400
+);
