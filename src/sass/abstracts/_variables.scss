@@ -73,6 +73,14 @@
   --recipe-item-block-border-bottom: 1px solid hsl(var(--color-neutral-300));
   --recipe-item-block-padding-block: 2rem;
 
+  --recipe-item-block-alt-bg: hsl(var(--color-neutral-150));
+  --recipe-item-block-alt-radius: 12px;
+  --recipe-item-block-alt-padding: 1.5rem;
+  --recipe-item-block-alt-heading-font: var(--fw-bold) var(--fs-200)
+    var(--ff-primary);
+  --recipe-item-block-alt-heading-color: hsl(var(--color-secondary));
+  --recipe-item-block-alt-list-marker-color: hsl(var(--color-secondary));
+
   @media (min-width: 48em) {
     --recipe-item-radius: 24px;
     --recipe-item-max-width: 41rem;
