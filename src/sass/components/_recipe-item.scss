@@ -7,6 +7,7 @@
 .recipe-item {
   background-color: var(--recipe-item-bg);
   border-radius: var(--recipe-item-radius);
+  padding: var(--recipe-item-padding);
   margin-inline: auto;
   max-width: var(--recipe-item-max-width);
   overflow: hidden;
