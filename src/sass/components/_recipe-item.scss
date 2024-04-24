@@ -12,6 +12,10 @@
   max-width: var(--recipe-item-max-width);
   overflow: hidden;
 
+  &__img img {
+    border-radius: var(--recipe-item-img-radius);
+  }
+
   &__content {
     @include mixin.flex($align: null, $gap: var(--recipe-item-content-gap));
 
