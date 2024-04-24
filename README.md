@@ -1,31 +1,47 @@
-# Sass Starter
+![](./screenshot.jpg)
 
-A barebones starter template to get your app off the ground quickly. Featuring little to no mixins, no pre-defined variables or utility classes.
+# Frontend Mentor - Recipe page solution
 
-## Getting Started
+This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-In order to use Sass Starter, you will need the following installed on your machine:
+## Table of contents
 
-- Node.js v18.16.1 (https://nodejs.org/en)
-- NPM v9.7.2 (https://www.npmjs.com/)
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-## Clone Repository
+## Overview
 
-```shell
-https://github.com/frontendstu/sass-starter
-```
+### Links
 
-## Installation
+- 📦 Solution URL: [https://github.com/frontendstu/recipe-page/](https://github.com/frontendstu/recipe-page)
+- 🖥 Live Site URL: [https://frontendstu.github.io/recipe-page/](https://your-live-site-url.com)
 
-1. Navigation to project directory
-2. Run the following command
+## My process
 
-```shell
-npm install
-```
+### Built with
 
-3. Once the package is installed, run the following command
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
 
-```shell
-npm run start
-```
+### What I learned
+
+After taking a 6 month break from coding and web development I thought this would be a neat little challenge to remove some of the rust. Unfortunatley 6 months was a bit too long and a lot of my skills have been forgotten as this proved to be a bit of a challenge 🤦‍♂️
+
+I will continue moving forward to try and sharpen my mind to be able to get to the level I was this time 6 months ago.
+
+## Author
+
+- GitHub - [@frontendstu](https://github.com/frontendstu)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/frontendstu)
