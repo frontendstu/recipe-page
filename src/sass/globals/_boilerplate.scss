@@ -34,3 +34,20 @@ li {
     color: var(--list-item-marker-color);
   }
 }
+
+table {
+  border-spacing: 0;
+
+  tr:not(:last-child) td {
+    border-bottom: var(--table-row-border-bottom);
+  }
+
+  td {
+    padding: var(--table-row-padding);
+
+    &:nth-child(even) {
+      font-weight: var(--table-row-even-fw);
+      color: var(--table-row-even-color);
+    }
+  }
+}
