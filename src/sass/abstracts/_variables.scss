@@ -48,6 +48,12 @@
   --list-item-margin-left: 1.25rem;
   --list-item-padding-left: 1.75rem;
 
+  // ---------- TABLES
+  --table-row-padding: 0.75rem 2rem;
+  --table-row-border-bottom: 1px solid hsl(var(--color-neutral-300));
+  --table-row-even-fw: var(--fw-bold);
+  --table-row-even-color: hsl(var(--color-primary));
+
   // ---------- COMPONENTS
 
   // -----  Recipe Item
