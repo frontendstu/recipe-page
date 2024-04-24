@@ -9,4 +9,17 @@
   margin-inline: auto;
   max-width: var(--recipe-item-max-width);
   overflow: hidden;
+
+  &__content {
+    @include mixin.flex($align: null, $gap: var(--recipe-item-content-gap));
+
+    margin-top: var(--recipe-item-content-margin-top);
+    margin-inline: auto;
+    max-width: var(--recipe-item-content-max-width);
+
+    .heading {
+      font-size: var(--recipe-item-heading-fs);
+      color: var(--recipe-item-heading-color);
+    }
+  }
 }
