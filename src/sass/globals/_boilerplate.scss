@@ -23,8 +23,6 @@ strong {
 ul,
 ol {
   @include mixin.flex($align: null, $direction: column, $gap: var(--list-gap));
-
-  margin-top: var(--list-margin-top);
 }
 
 li {
