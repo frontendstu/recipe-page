@@ -31,5 +31,9 @@
       font-size: var(--recipe-item-block-heading-fs);
       color: var(--recipe-item-block-heading-color);
     }
+
+    &:last-child {
+      border-bottom: 0;
+    }
   }
 }
