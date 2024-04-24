@@ -49,4 +49,16 @@
     --recipe-item-radius: 24px;
     --recipe-item-max-width: 41rem;
   }
+
+  --recipe-item-content-margin-top: 2.5rem;
+  --recipe-item-content-gap: 1.5rem;
+  --recipe-item-content-max-width: 19.375rem;
+
+  --recipe-item-heading-fs: var(--fs-400);
+  --recipe-item-heading-color: hsl(var(--color-neutral-800));
+
+  @media (min-width: 48em) {
+    --recipe-item-content-max-width: 46rem;
+    --recipe-item-content-heading-fs: var(--fs-500);
+  }
 }
