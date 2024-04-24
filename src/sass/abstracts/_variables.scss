@@ -29,4 +29,9 @@
   // ----- Leading
   --leading-100: 100%;
   --leading-150: 150%;
+
+  // ----- Copy
+  --copy-font: var(--fw-regular) var(--fs-100) var(--ff-primary);
+  --copy-leading: var(--leading-150);
+  --copy-color: hsl(var(--color-neutral-500));
 }
