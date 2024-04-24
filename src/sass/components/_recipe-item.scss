@@ -37,5 +37,21 @@
     &:last-child {
       border-bottom: 0;
     }
+
+    &-alt {
+      background-color: var(--recipe-item-block-alt-bg);
+      border-bottom: 0;
+      border-radius: var(--recipe-item-block-alt-radius);
+      padding: var(--recipe-item-block-alt-padding);
+
+      .heading {
+        font: var(--recipe-item-block-alt-heading-font);
+        color: var(--recipe-item-block-alt-heading-color);
+      }
+
+      li::marker {
+        color: var(--recipe-item-block-alt-list-marker-color);
+      }
+    }
   }
 }
