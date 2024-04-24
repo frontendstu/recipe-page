@@ -4,6 +4,11 @@ body {
   font: var(--copy-font);
   line-height: var(--copy-leading);
   color: var(--copy-color);
+
+  @media (min-width: 48em) {
+    display: grid;
+    place-content: center;
+  }
 }
 
 .heading {
