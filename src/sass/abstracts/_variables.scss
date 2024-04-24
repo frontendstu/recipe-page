@@ -38,4 +38,15 @@
   // ----- Heading
   --heading-ff: var(--ff-secondary);
   --heading-leading: var(--leading-100);
+
+  // ---------- COMPONENTS
+
+  // -----  Recipe Item
+  --recipe-item-radius: 0;
+  --recipe-item-max-width: 100%;
+
+  @media (min-width: 48em) {
+    --recipe-item-radius: 24px;
+    --recipe-item-max-width: 41rem;
+  }
 }
