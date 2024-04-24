@@ -61,4 +61,9 @@
     --recipe-item-content-max-width: 46rem;
     --recipe-item-content-heading-fs: var(--fs-500);
   }
+
+  --recipe-item-block-heading-fs: var(--fs-300);
+  --recipe-item-block-heading-color: hsl(var(--color-primary));
+  --recipe-item-block-border-bottom: 1px solid hsl(var(--color-neutral-300));
+  --recipe-item-block-padding-block: 2rem;
 }
